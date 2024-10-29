@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.navbar-brand{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+#home{
+    margin-top: 6rem;
+    height: fit-content;
+}
+
+#introduction{
+    height: 90vh;
+    background-image: url('./images/intro2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+#intro-text{
+    font-weight: 700;
+    color: black;
+    background-color: aliceblue;
+    opacity: 80%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h2{
+    font-weight: bolder;
+    padding: 1rem;
+    background-color: mediumspringgreen;
+}
+
+#featured{
+    height: 90vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.card{
+    margin-top: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(14, 162, 207, 0.9);
+}
+
+.card-img-top{
+    margin: auto;
+    /* width: 70%; */
+    max-height: 10rem;
+    max-width: 200px;
+}
+
+.card-body{
+    max-height: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-title{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.card-btn{
+    margin-top: auto;
+}
+
+ 
+#categories-section{
+    height: 70vh;
+    margin-top: 40px;
+    overflow: auto;
+}
+
+#categories{
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.list .list-item {
+    padding: .5rem;
+    background-color: mediumaquamarine;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+#resources, #other-resources{
+    margin-left: 2rem;
+    color: blue;
+    font-size: larger;
+}
+
+
+#about{
+    padding: 2rem;
+}
+
+#about #mission {
+    margin-top: 30px;
+    text-indent: 20px;
+    text-align: justify;
+    font-size: larger;
+}
+
+h3{
+    font-weight: bold;
+}
